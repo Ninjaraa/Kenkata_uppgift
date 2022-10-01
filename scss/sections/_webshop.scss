@@ -1,0 +1,47 @@
+.webshop-box {
+    padding: 3rem 0 0;
+
+    .container {
+        max-width: 100rem;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .info-box {
+        background-color: $color-theme-light;
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+        margin: 0 1rem;
+        flex: 1;
+        border-radius: $border-radius-small;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+            background-color: $color-theme;
+            color: $color-white;
+            transition: 0.3s ease-in-out;
+        }
+
+        img {
+            margin-right: 1.5rem;
+            transition: 0.3s ease-in-out;
+            filter: brightness(100%);
+        }
+
+        &:hover img {
+            filter: brightness(1000%);
+        }
+
+        h1 {
+            color: $color-theme;
+            font-size: $font-size-16;
+            font-weight: $font-weight-medium;
+        }
+
+        &:hover h1 {
+            color: $color-white;
+            transition: 0.3s ease-in-out;
+        }
+    }
+}

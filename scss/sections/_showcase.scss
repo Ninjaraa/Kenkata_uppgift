@@ -1,0 +1,42 @@
+.showcase {
+    background-color: $color-gray-3;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .showcase-body {
+        flex: 1;
+        padding-top: 2.4rem;
+        padding-bottom: 2.4rem;
+
+        h1 {
+            font-size: $font-size-60;
+            font-family: $font-play;
+            margin-top: 0;
+            margin-bottom: .5rem;
+            font-weight: 500;
+            line-height: 1.2;
+        }
+
+        p {
+            width: 80%;
+            margin: 2rem 0;
+        }
+
+        strong {
+            font-weight: $font-weight-bold;
+            font-family: $font-play;
+            color: $color-theme;
+            display: block;
+        }
+    }
+
+    img {
+        flex: 1;
+        width: 100%;
+        display: block;
+    }
+}

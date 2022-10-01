@@ -1,0 +1,75 @@
+.subscribe-section {
+    margin-top: 3.3rem;
+    background-color: $color-gray-3;
+    height: 20rem;
+    width: 100%;
+}
+
+.subscribe-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe {
+    margin-top: 2rem;
+    width: 31.25rem;
+    height: 18rem;
+
+    h2 {
+        color: $color-theme-dark;
+        font-size: $font-size-36;
+        font-family: $font-play;
+        font-weight: $font-weight-bold;
+
+        span {
+            color: $color-theme;
+        }
+    }
+
+    .subscribe p {
+        color: $color-theme-dark;
+    }
+
+    #email {
+        position: absolute;
+        width: 27.8rem;
+        height: 3.1rem;
+        color: $color-theme-dark;
+        font-size: $font-size-14;
+        border: 1px solid $color-gray-2;
+        font-size: 0.9rem;
+        padding-left: 1.3rem;
+        border-right: none;
+        border-radius: $border-radius-medium;
+        outline: none;
+    }
+
+    input#email {
+        color: $color-gray-0;
+        font-family: $font-roboto;
+        font-size: $font-size-14;
+    }
+
+    .btn-subscribe {
+        position: relative;
+        left: 21rem;
+        top: 0.3rem;
+        width: 6.5rem;
+        height: 2.5rem;
+        padding-left: 0.7rem;
+        background-color: $color-theme;
+        color: $color-white;
+        border: none;
+        border-radius: 23px;
+
+        &:hover {
+            background: $color-theme-dark;
+            transition: 0.3s ease-in-out;
+        }
+    }
+}
+
+.subscription-box {
+    background-color: $color-gray-1;
+    width: 31.25rem;
+}
